@@ -1,0 +1,34 @@
+{
+  "development": {
+    "username": "postgres",
+    "passord": null,
+    "database": "postgres",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5433
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "postgres",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
+  },
+  "production": {
+    "username": "postgres",
+    "password": null,
+    "database": "postgres",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
+  },
+  "docker": {
+    "username": "postgres",
+    "password": "pass",
+    "database": "postgres",
+    "host": "auth_db",
+    "dialect": "postgres",
+    "port": 5432
+  }
+}
